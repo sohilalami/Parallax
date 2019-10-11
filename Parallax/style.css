@@ -1,0 +1,78 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 70vh;
+  padding: 3em;
+  transition: all 1s linear;
+}
+
+nav {
+  background: #444;
+  position: sticky;
+  transition: top 1s ease-out;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+nav a {
+  color: rgb(255, 0, 0);
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+nav a:hover {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+}
+
+.deel {
+  padding: 30vh 3em;
+  background-color: aliceblue;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 3em;
+  color: rgba(255,255,255,0.7);
+  text-shadow: 0 0 3px grey;
+  overflow-x: hidden;
+}
+
+
+.deel--2 {
+  background-image: url("https://www.rd.nl/image/contentid/policy:1.1593081:1568190284/2019-09-11-VP1-eekhoorn-4-FC-web.jpg?f=16x9&$p$f=25c3fa4") ;
+}
+
+.deel--4 {
+  background-image: url("https://welingelicht-welingelichtekri.netdna-ssl.com/wp-content/uploads/2016/08/011.jpeg")
+}
+
+.deel--6 {
+  background-image: url("https://www.peta.nl/wp-content/uploads/2017/05/giraffe-1124451_1920.jpg")
+}
+
+
+
+.accent {
+  color: rgb(20, 0, 197);
+  background-color: rgb(26, 224, 0);
+}
+
+#voortgang {
+  position: fixed;
+  bottom: 0;
+  height: 5px;
+  background-color: rgb(128, 108, 1);
+}
